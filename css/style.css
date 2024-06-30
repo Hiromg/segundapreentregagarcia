@@ -17,7 +17,7 @@ font-family:"Lato", sans-serif;
 
 
 .navbar-toggler-icon {
-    font-size: 0.81rem; /*tamaño menu hamburguesa */
+    font-size: 12.96px; /*tamaño menu hamburguesa */
 }
 
 .navbar {
@@ -25,7 +25,7 @@ font-family:"Lato", sans-serif;
     font-family:"Lato", sans-serif;
     color: #111827;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 20px;
     
 }
 .dropdown-menu{
@@ -35,16 +35,16 @@ font-family:"Lato", sans-serif;
 }
 
 .navbar-brand {
-    margin-left: 1.25rem;
+    margin-left: 20px;
 }
 .nav-item dropdown{
-    padding: .625rem;
+    padding: 10px;
 }
 
 .navbar-nav {
     margin: 0 auto; 
     display: flex; 
-    gap: 1.25rem; 
+    gap: 20px; 
     align-items: center; }
 
 
@@ -80,9 +80,9 @@ font-family:"Lato", sans-serif;
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 20px; 
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    gap: 1.25rem; 
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -90,25 +90,25 @@ font-family:"Lato", sans-serif;
 
 .card {
     background-color: #EDEDED; 
-    border-radius: 11px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.382); 
-    padding: 20px;
-    width: 18.75rem;
-    height: 14.0625rem;
+    border-radius: .6875rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    width: 300px;
+    height: 225px;
     text-align: center;
 }
 
 .card h2 {
     color: #0E0A5C; 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
     font-family:"Lato", sans-serif;
 }
 
 .card p {
     color: #333;
-    font-size: 16px;
+    font-size: 1rem;
     font-family:"Lato", sans-serif;
 }
 
@@ -123,16 +123,16 @@ font-family:"Lato", sans-serif;
     flex-wrap: wrap;
     max-width: 100%;
     margin: 0 auto;
-    padding-bottom: 3.4375rem;
+    padding-bottom: 55px;
 }
 
 .products-section h1 {
     color: #FF0000; 
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 20px;
-    margin-top: 1.5625rem;
-    margin-left: 25px;
+    margin-bottom: 1.25rem;
+    margin-top: 25px;
+    margin-left: 1.5625rem;
     display: flex;
     justify-content: flex-start;
     max-width: fit-content;
@@ -144,45 +144,45 @@ font-family:"Lato", sans-serif;
     grid-template-rows: auto auto;
     justify-content: center;
     align-content: space-between;
-    gap: 25px; 
+    gap: 1.5625rem; 
     flex-wrap: wrap;
 }
 
 .card-product {
     background-color: #FFFFFF; 
-    border-radius: 11px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.481); 
-    padding: 20px;
-    width: 23.6875rem;
-    height: 25rem;
+    border-radius: .6875rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.481); 
+    padding: 1.25rem;
+    width: 379px;
+    height: 400px;
     text-align: center;
-    margin-bottom: .625rem;
-    margin-top: 1.5625rem;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 .product-image {
     max-width: 100%;
     height: auto;
-    width: 15.3125rem;
-    height: 12.8125rem;
-    border-radius: 10px;
+    width: 245px;
+    height: 205px;
+    border-radius: .625rem;
 }
 
 .card p {
     color: #333;
-    font-size: 16px;
-    margin: 15px 0;
+    font-size: 1rem;
+    margin: .9375rem 0;
     width: 100%;
-    padding-bottom: .625rem;
+    padding-bottom: 10px;
 }
 
 .read-more {
     background-color: #16A34A; 
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: .625rem 1.25rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
     cursor: pointer;
     text-decoration: none;
     
@@ -197,9 +197,9 @@ font-family:"Lato", sans-serif;
     background-color: #16A34A; 
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: .625rem 1.25rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
     cursor: pointer;
     text-decoration: none;
     
@@ -223,10 +223,10 @@ font-family:"Lato", sans-serif;
 
 .section-container h1 {
     color: white; 
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 20px;
-    margin-top: 1.5625rem;
+    margin-bottom: 1.25rem;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     max-width: fit-content;
@@ -235,10 +235,10 @@ font-family:"Lato", sans-serif;
 .logo-image {
     max-width: 100%;
     height: auto;
-    gap: .625rem;
-    margin-bottom: 3.125rem;
+    gap: 10px;
+    margin-bottom: 50px;
     align-content: space-around;
-    margin-left: 1.25rem;
+    margin-left: 20px;
 }
 
 /*BANNER NOSOTROS*/
@@ -258,7 +258,7 @@ font-family:"Lato", sans-serif;
 
 .wrap-texto{
     font-family:"Lato", sans-serif;
-    font-size: 1.125rem;
+    font-size: 18px;
     width: 50%;;
     position: absolute;
     top: 50%;
@@ -303,28 +303,28 @@ font-family:"Lato", sans-serif;
     font-family: "Lato", sans-serif;
     font-weight: 900;
     color: #0E0A5C;
-    padding-top: 1.25rem;
-    padding-left: 1.25rem;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .text-section p {
     font-family: "Lato", sans-serif;
     color: black;
-    padding-left: 1.25rem ;
-    padding-top: .625rem;
-    padding-right: .9375rem;
+    padding-left: 20px ;
+    padding-top: 10px;
+    padding-right: 15px;
 }
 
 .text-section {
     grid-column: 1 / 4;
     grid-row: 1 / 3;
-    margin-left: .625rem;
+    margin-left: 10px;
 }
 
 .grid-container{
-    margin-left: 1.875rem;
-    padding-top: 1.25rem;
-    padding-bottom: 20px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 1.25rem;
 }
 
 /*MISION VISION*/
@@ -332,35 +332,35 @@ font-family:"Lato", sans-serif;
 .containeraline {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 1.25rem;
     background-color: white;
     width: 70%;
 }
 
 .mision {
     background-color: #FFF4F3; 
-    border-radius: 22px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.382); 
-    padding: 20px;
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
     width: auto;
     text-align: center;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .mision h2 {
     color: white;
     background-color: #FC1912;
-    border-radius: 11px; 
-    font-size: 20px;
+    border-radius: .6875rem; 
+    font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
     font-family:"Lato", sans-serif;
 }
 
 .mision p {
     color: #333;
-    font-size: 16px;
+    font-size: 1rem;
     font-family:"Lato", sans-serif;}
 
 
@@ -374,11 +374,11 @@ font-family:"Lato", sans-serif;
 
 .section-valores h1 {
     color:#1E0875; 
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 2.5rem;
-    margin-top: 2.5rem;
-    padding-top: 2.5rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -387,8 +387,8 @@ font-family:"Lato", sans-serif;
     display: flex;
     align-content: space-around;
     justify-content: center;
-    gap:10px;
-    padding-bottom: 2.5rem;
+    gap:.625rem;
+    padding-bottom: 40px;
     }
     
 /*carrusel*/
@@ -401,20 +401,20 @@ font-family:"Lato", sans-serif;
 
 .carousel{
     background-color: #0E0A5C;
-   padding-bottom: 2.5rem;
-   margin-bottom: 2.5rem;
+   padding-bottom: 40px;
+   margin-bottom: 40px;
 }
 
 .titulo-carrusel h1 {
     font-family:"Lato", sans-serif;
     font-weight: 900;
     color: #F9FAFB;
-    margin-bottom: 2.5rem5;
-    margin-top: 1.25rem;
-    padding-top: 2.5rem;
-    padding-left: 20px;
-    padding-bottom: 1.25rem;
-    margin-left: 2.5rem;
+    margin-bottom: 40px5;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-left: 1.25rem;
+    padding-bottom: 20px;
+    margin-left: 40px;
 
 }
 
@@ -430,8 +430,8 @@ font-family:"Lato", sans-serif;
     font-family:"Lato", sans-serif;
     font-weight: 900;
     color: #F9FAFB;
-    padding-left: 40px;
-    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-top: 20px;
     display: flex;
     justify-content: flex-start;
     align-content: center;
@@ -441,8 +441,8 @@ font-family:"Lato", sans-serif;
     display: flex;
     width: 10%;
     justify-content: flex-end;
-    padding-right: 40px;
-    margin-right: 1.25rem;
+    padding-right: 2.5rem;
+    margin-right: 20px;
 }
 
 /*card nuestros productos*/
@@ -451,37 +451,37 @@ font-family:"Lato", sans-serif;
     display: flex;
     justify-content: center;
     align-content: space-between;
-    gap: 1.5625rem;
+    gap: 25px;
     flex-wrap: wrap;
-    padding-top: 2.5rem;
-    padding-bottom: 3.125rem;
+    padding-top: 40px;
+    padding-bottom: 50px;
     background-color: #F9FAFB;
 }
 
 .card2 {
     background-color: #FFFFFF; 
-    border-radius: 11px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.481); 
-    padding: 20px;
-    width: 23.6875rem;
-    height: 25rem;
+    border-radius: .6875rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.481); 
+    padding: 1.25rem;
+    width: 379px;
+    height: 400px;
     text-align: center;
-    margin-bottom: .625rem;
-    margin-top: 1.5625rem;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 .product-image2 {
     max-width: 100%;
     height: auto;
-    width: 15.3125rem;
-    height: 12.8125rem;
-    border-radius: 10px;
+    width: 245px;
+    height: 205px;
+    border-radius: .625rem;
 }
 
 .card2 p {
     color: #333;
-    font-size: 16px;
-    margin: 10px 0;
+    font-size: 1rem;
+    margin: .625rem 0;
     width: 100%;
 }
 
@@ -489,9 +489,9 @@ font-family:"Lato", sans-serif;
     background-color: #16A34A; 
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: .625rem 1.25rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
     cursor: pointer;
     text-decoration: none;
     
@@ -506,10 +506,10 @@ font-family:"Lato", sans-serif;
     background-color: #16A34A; 
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin-top: 1.25rem;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: .625rem 1.25rem;
+    margin-top: 20px;
+    font-size: 1rem;
+    border-radius: .3125rem;
     cursor: pointer;
     text-decoration: none;
 }
@@ -530,7 +530,7 @@ font-family:"Lato", sans-serif;
 
 .wrap-texto2{
     font-family:"Lato", sans-serif;
-    font-size: 1.25rem;
+    font-size: 20px;
     width: 50%;;
     position: absolute;
     top: 50%;
@@ -554,10 +554,10 @@ font-family:"Lato", sans-serif;
 
 .section-container2 h1 {
     color: white; 
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 20px;
-    margin-top: 1.5625rem;
+    margin-bottom: 1.25rem;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     max-width: fit-content;
@@ -566,10 +566,10 @@ font-family:"Lato", sans-serif;
 .logo-image2 {
     max-width: 100%;
     height: auto;
-    gap: 25px;
-    margin-bottom: 3.125rem;
+    gap: 1.5625rem;
+    margin-bottom: 50px;
     align-content: space-around;
-    margin-left: 1.25rem;
+    margin-left: 20px;
 }
 
 /*noticias*/
@@ -580,32 +580,32 @@ font-family:"Lato", sans-serif;
     grid-template-columns: 50% auto;
     grid-template-rows: auto;
     flex-wrap: wrap;
-    padding-top: 1.25rem ;
-    padding-bottom: 1.25rem ;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
     background-color: #F9FAFB;
-    width: 62.5rem;
-    margin-top: 1.875rem;
-    margin-bottom: 1.5625rem;
-    border-radius: .6875rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.481);  
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border-radius: 11px;
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.481);  
 }
 
 .img-nota img{
-    width: 400px;
-    margin-left: 1.25rem;
+    width: 25rem;
+    margin-left: 20px;
     align-content: center;
-    padding-left: 20px;
-    margin-top: 20px;
+    padding-left: 1.25rem;
+    margin-top: 1.25rem;
 
 }
 
 .img-nota1 .nota1{
-    width: 400px;
-    height: 200px;
-    margin-left: 1.25rem;
-    margin-top: 20px;
+    width: 25rem;
+    height: 12.5rem;
+    margin-left: 20px;
+    margin-top: 1.25rem;
     align-content: center;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 
 }
 
@@ -615,7 +615,7 @@ font-family:"Lato", sans-serif;
     color: #1E0875;
     display: flex;
     text-align: left;
-    padding-right: 10px;
+    padding-right: .625rem;
 
 }
 
@@ -625,19 +625,19 @@ font-family:"Lato", sans-serif;
     display: flex;
     text-align:left;
     align-content: flex-end;
-    padding-right: 20px;
-    margin-right: 20px;
+    padding-right: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .more {
     background-color: #16A34A; 
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin-top: 1.25rem;
-    margin-bottom: .625rem;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: .625rem 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: .3125rem;
     cursor: pointer;
     text-decoration: none;
 }
@@ -652,7 +652,7 @@ font-family:"Lato", sans-serif;
     background-color: #EDEDED;
     width: 90%;
     margin: auto;
-    padding: .3125rem;
+    padding: 5px;
 
 }
 
@@ -660,25 +660,25 @@ font-family:"Lato", sans-serif;
     display: flex;
     font-family:"Lato", sans-serif;
     font-weight: 600;
-    font-size: .8125rem;
+    font-size: 13px;
     justify-content: space-between;
     width: 90%;
-    margin-left: 2.5rem;
-    margin-top: 3.125rem;
-    padding-left: 1.25rem;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-left: 20px;
     color: #1E0875;
 }
 
 .titulo-nota h2{
     font-family:"Lato", sans-serif;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     width: 90%;
-    margin-left: 2.5rem;
-    margin-top: .625rem;
-    padding-left: 1.25rem;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-left: 20px;
     color: #1E0875;
     text-align: center;
 }
@@ -686,11 +686,11 @@ font-family:"Lato", sans-serif;
 .bajada-nota p{
     display: flex;
     font-family:"Lato", sans-serif;
-    font-size: .9375rem;
+    font-size: 15px;
     width: 90%;
-    margin-left: 3.125rem;
-    margin-top: .625rem;
-    padding-left: 2.5rem;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-left: 40px;
     color: #111827;
     text-align: left;
 }
@@ -698,33 +698,33 @@ font-family:"Lato", sans-serif;
 .imagen-nota {
     display: flex;
     justify-content: center;
-    margin: 1.875rem;
+    margin: 30px;
 }
 
 .cuerpo-nota p{
     display: flex;
     font-family:"Lato", sans-serif;
-    font-size: 1.125rem;
+    font-size: 18px;
     justify-content: center;
     width: 90%;
-    margin-left: 2.5rem;
-    margin-top: .625rem;
-    padding-left: 1.25rem;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-left: 20px;
     color: #111827;
     text-align: left;
 } 
 
 .espacio{
-    margin-bottom: 3.75rem;
-    padding-bottom: 1.875rem;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .imagen-nota2 img{
     display: flex;
     justify-content: center;
-    margin-left: 5.625rem;
-    width: 62.5rem;
-    margin-bottom: 2.5rem;
+    margin-left: 90px;
+    width: 1000px;
+    margin-bottom: 40px;
 }
 
 
@@ -742,40 +742,892 @@ font-family:"Lato", sans-serif;
     justify-content: center;
     align-content: center;
     font-family:"Lato", sans-serif;
-    font-size: 2.5rem;
+    font-size: 40px;
     width: 50%;
     font-weight: 900;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: black;
+    color: #0E0A5C;
     text-align: center;
     transform: translate(-50%, -90%);
     
 }
 
 .parrafo-bigbag{
+    display: flex;
     font-family:"Lato", sans-serif;
-    font-size: 1rem;
+    font-size: 20px;
     max-width: 90%;
     color: #111827;
     text-align: justify;
+    width: 80%;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 2.5rem auto;
+
+}
+
+/*bigbag card*/
+
+.who-container{
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.who-container h2{
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.grid-list p{
+    grid-area: parrafo;
+    font-family:"Lato", sans-serif;
+    color: #ABA2CB;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 10px;
+    text-align:left;
+}
+
+.grid-list{
+    display: grid;
+    max-width: 80%;
+    grid-template-areas:
+    "parrafo  parrafo img"
+    "list1 list2 img";
+    grid-template-columns: 50% 20%;
+    grid-template-rows: auto auto;
+
+}
+
+.grid-list img{
+grid-area: img;
+width: 450px;
+height: auto;
+padding-bottom: 40px;
+}
+
+.list1{
+    grid-area: list1;
+    font-family:"Lato", sans-serif;
+    color: #ABA2CB;
+    margin-left: 2.5rem;
+}
+
+.list2{
+    grid-area: list2;
+    font-family:"Lato", sans-serif;
+    color: #ABA2CB;
+    transform: translate(-30%, 0);
+}
+
+/*clasificacion y ventajas*/
+
+.containerclassi {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.25rem;
+    background-color: white;
+    width: 90%;
+}
+
+
+.clasificacion{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
     padding: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clasificacion h2 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.clasificacion ul {
+    color: #333;
+    font-size: 1rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    list-style-type: none;}
+
+/*ventajas*/
+.ventajas{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ventajas h2 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.ventajas ul {
+    color: #333;
+    font-size: 1rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;}
+
+/*tipos de contruccion*/
+
+.contruction-section {
+    background-color: #FC1912;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-bottom: 80px;
+}
+
+.contruction-section h2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    font-weight: 800;
+    margin-left: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    padding-top: 40px;
+
+}
+
+.tipos-container {
+display: grid;
+grid-template-columns: auto auto;
+max-width: 90%;
+gap: 20px;
+justify-content: center;
+} 
+
+.card12 {
+    background-color: #FFFFFF; 
+    border-radius: .6875rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.481); 
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.big-bag1 {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    height:auto;
+}
+
+.card12 h3{
+    color: #0E0A5C;
+    font-size: 25px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 10px;
+    }
+
+.card12 ul {
+    font-family:"Lato", sans-serif;
+    color: #333;
+    font-size: 15px;
+    margin: .625rem 0;
+    width: 100%;
+    list-style: none;
+    text-align: left;
+}
+
+/*SLING BAGS pagina*/
+
+.sling-bag{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.slingbag-container h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:"Lato", sans-serif;
+    font-size: 40px;
+    width: 50%;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #0E0A5C;
+    text-align: center;
+    transform: translate(-50%, -90%);
     
+}
+
+.parrafo-slingbag{
+    display: flex;
+    font-family:"Lato", sans-serif;
+    font-size: 20px;
+    max-width: 90%;
+    color: #111827;
+    text-align: justify;
+    width: 80%;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 2.5rem auto;
+
+}
+
+/*slingbag section*/
+
+.slingventajas-container{
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-left: .625rem;
+    padding-right: 1.875rem;
+    margin-bottom: .625rem;
+}
+
+.slingventajas-container h2{
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.gridv-list li{
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 10px;
+    text-align:left;
+}
+
+.gridv-list{
+    display: grid;
+    max-width: 100%;
+    grid-template-areas:
+    "list1 img2 img3";
+    grid-template-columns: auto auto auto;
+
+}
+.list1v{
+    grid-area: list1;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 2.5rem;
+}
+
+.imgv1{
+grid-area: img3;
+width: 21.875rem;
+height: auto;
+padding: .625rem;
+}
+
+ .imgv2{
+    grid-area: img2;
+    width: 12.5rem;
+    height: auto;
+    border-radius: .6875rem;
+    }
+
+/*BOLSAS DE POLIPROPILENO pagina*/
+
+.bolsaspp-container{
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.bolsaspp-container h2{
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.grid-listpp p{
+    grid-area: parrafo;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 10px;
+    text-align:left;
+}
+
+.grid-listpp{
+    display: grid;
+    max-width: 80%;
+    grid-template-areas:
+    "parrafo  parrafo img"
+    "list1 list2 img";
+    grid-template-columns: 50% 40%;
+    grid-template-rows: auto auto;
+
+}
+
+.grid-listpp img{
+grid-area: img;
+width: 18.75rem;
+height: auto; 
+padding-bottom: 40px;
+}
+
+.list1{
+    grid-area: list1;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 2.5rem;
+    padding-bottom: 40px;
+}
+
+.list2{
+    grid-area: list2;
+    font-family:"Lato", sans-serif;
+    color: #ABA2CB;
+    transform: translate(-30%, 0);
+    padding-bottom: 40px;
+}
+
+/*tipos de bolsas pp*/
+
+.pp-container {
+    max-width: 90%;
+}
+
+
+.clasificacion-pp{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.clasificacion-pp h2 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.clasificacion-pp ul {
+    color: #333;
+    font-size: 1.125rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    list-style-type: none;}
+
+/*BOLSAS ALLSTAR*/
+
+.bolsaspp-container{
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.bolsaspp-container h2{
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.grid-listpp p{
+    grid-area: parrafo;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 10px;
+    text-align:left;
+}
+
+.grid-listpp{
+    display: grid;
+    max-width: 80%;
+    grid-template-areas:
+    "parrafo  parrafo img"
+    "list1 list2 img";
+    grid-template-columns: 50% 40%;
+    grid-template-rows: auto auto;
+
+}
+
+.grid-listpp img{
+grid-area: img;
+width: 18.75rem;
+height: auto; 
+padding-bottom: 40px;
+}
+
+.list1{
+    grid-area: list1;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 2.5rem;
+    padding-bottom: 40px;
+}
+
+.list2{
+    grid-area: list2;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    transform: translate(-30%, 0);
+    padding-bottom: 40px;
+}
+
+/*tipos de bolsas star*/
+
+.star-container {
+    max-width: 90%;
+}
+
+
+.clasificacion-star{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.clasificacion-star h2 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.clasificacion-star ul {
+    color: #333;
+    font-size: 1.125rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    list-style-type:circle;}
+
+/*liners de pe*/
+
+.parrafo-liners{
+    display: flex;
+    font-family:"Lato", sans-serif;
+    font-size: 20px;
+    max-width: 90%;
+    color: #111827;
+    text-align: justify;
+    width: 80%;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 2.5rem auto;
+
+}
+
+.liners-container{
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: .6875rem;
+    margin-bottom: 3.125rem;
+}
+
+.liners-container h2{
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.grid-liner p{
+    grid-area: parrafo;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 10px;
+    text-align:left;
+}
+
+.grid-liner{
+    display: grid;
+    max-width: 80%;
+    grid-template-areas:
+    "parrafo  img "
+    "list1  img ";
+    grid-template-columns: 80% 40%;
+    grid-template-rows: auto auto;
+
+}
+
+.grid-liner img{
+grid-area: img;
+width: 25rem;
+height: auto; 
+border-radius: .6875rem;
+}
+
+.listliner{
+    grid-area: list1;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 2.5rem;
+    padding-bottom: 40px;
+}
+ /*liners2*/
+
+ .liners2-container{
+    display: flex;
+    background-color: #FC1912;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: .6875rem;
+    margin-bottom: 3.125rem;
+}
+
+.liners2-container h2{
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    font-weight: 800;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.grid-liners2 p{
+    grid-area: parrafo;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 10px;
+    text-align:left;
+}
+
+.grid-liners2{
+    display: grid;
+    max-width: 80%;
+    grid-template-areas:
+    "parrafo  img"
+    "list1  img";
+    grid-template-columns: 80% 40%;
+    grid-template-rows: auto auto;
+
+}
+
+.grid-liners2 img{
+grid-area: img;
+width: 25rem;
+height: auto; 
+}
+
+.listliner2{
+    grid-area: list1;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 2.5rem;
+    padding-bottom: 40px;
+}
+
+ /*BULK DRY LINERS PAGINA*/
+
+
+.parrafo-bulk p{
+    display: flex;
+    font-family:"Lato", sans-serif;
+    font-size: 20px;
+    max-width: 90%;
+    color: #111827;
+    text-align: justify;
+    width: 80%;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 2.5rem auto;
+    flex-wrap: wrap;
+
 }
 
 
 
+.ventajasbulk-container{
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.ventajasbulk-container h4{
+    display: flex;
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+    flex-wrap: wrap;
+}
 
 
+.grid-listbulk{
+    display: grid;
+    max-width: 90%;
+    grid-template-areas:
+    "list1 list2"
+    "list1 list2";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    margin-bottom: 1.875rem;
+
+}
+
+.list-bulk{
+    grid-area: list1;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 3.125rem;
+    padding-left: 3.125rem;
+
+}
+
+.list2-bulk{
+    grid-area: list2;
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+
+}
 
 
+.containerlist-bulk {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.25rem;
+    background-color: white;
+    width: 90%;
+}
 
 
+.list-transporte{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1.875rem;
+    width: 31.25rem;
+}
+
+.list-transporte h4 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.list-transporte ul {
+    color: #333;
+    font-size: 1rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    }
+
+    .list-transporte img {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.ventajas-bulk{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1.875rem;
+    width: 31.25rem;
+}
+
+.ventajas-bulk h4 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.ventajas-bulk ul {
+    color: #333;
+    font-size: 1rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    margin-top: 40px;}
 
 
+.dry-container {
+    background-color: #FC1912;
+    max-width: 70%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
 
+.dry-container h4 {
+    color: #0E0A5C;
+    font-size: 1.25rem;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px;
+    padding-top: 40px;
 
+}
+
+.dry-container ul {
+    color: #EDEDED;
+    font-size: 1.125rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    margin-left: 1.875rem;
+    margin-top: 1.25rem;}
+
+    .dry-container2 {
+        background-color: #FC1912;
+        max-width: 70%;
+        margin-bottom: 10px;
+        margin-top: 25px;
+        padding-bottom: 30px;
+    }
+    
+    .dry-container2 h4 {
+        color: #0E0A5C;
+        font-size: 1.25rem;
+        font-family:"Lato", sans-serif;
+        text-align: center;
+        font-weight: 800;
+        margin-top: 20px;
+        padding-top: 40px;
+    
+    }
+    
+    .dry-container2 ul {
+        color: #EDEDED;
+        font-size: 1.125rem;
+        font-family:"Lato", sans-serif;
+        text-align: left;
+        margin-left: 1.875rem;
+        margin-top: 1.25rem;}
+
+.dry-container3 {
+    background-color: #FC1912;
+    max-width: 70%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.dry-container3 h4 {
+    color: #0E0A5C;
+    font-size: 1.25rem;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px;
+    padding-top: 40px;
+
+}
+
+.dry-container3 ul {
+    color: #EDEDED;
+    font-size: 1.125rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    margin-left: 1.875rem;
+    margin-top: 1.25rem;}
 
 
 
@@ -787,13 +1639,13 @@ body {
 }
 
 .footer-container{
-    max-width: 75rem;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 footer {
     background-color: #1E0875;
-    padding: 5rem 0;
+    padding: 80px 0;
 }
 
 .footer-row{
@@ -802,54 +1654,54 @@ footer {
 }
 
 .footer-section{
-    padding: 0 .9375rem;
+    padding: 0 15px;
 }
 
 .footer-section h3{
     font-family:"Lato", sans-serif;
-    font-size: 1.25rem;
-    margin-bottom: 1.5625rem;
+    font-size: 20px;
+    margin-bottom: 25px;
     color: white;
     font-weight: 500;
-    border-bottom: .125rem solid #FC1912;
-    padding-bottom: .625rem;
+    border-bottom: 2px solid #FC1912;
+    padding-bottom: 10px;
 }
 
 .footer-section ul li a{
-    font-size: 1.125rem;
+    font-size: 18px;
     text-decoration: none;
     color: #ABA2CB;
-    margin-bottom: 15px;
+    margin-bottom: .9375rem;
 
 }
 
 .footer-section ul li a:hover{
     color: #ABA2CB;
-    padding-left: .375rem;
+    padding-left: 6px;
 }
 
 
 .footer-section img:hover{
-    padding: .1875rem ;
+    padding: 3px ;
 }
 
 .footer-links h3 {
     font-family:"Lato", sans-serif;
-    font-size: 1.25rem;
-    margin-bottom: 1.5625rem;
+    font-size: 20px;
+    margin-bottom: 25px;
     color: white;
     font-weight: 500;
-    border-bottom: .125rem solid #FC1912;
-    padding-bottom: .625rem;
+    border-bottom: 2px solid #FC1912;
+    padding-bottom: 10px;
 }
 
 .social-links a{
-    min-width: 2.5rem;
-    width: 3.75rem;
-    margin: 0 .625rem .625rem 0;
+    min-width: 40px;
+    width: 60px;
+    margin: 0 10px 10px 0;
     text-align: center;
-    line-height: 2.5rem;
-    border-radius: 3.125rem;
+    line-height: 40px;
+    border-radius: 50px;
     color: white ;
 }
 
@@ -866,11 +1718,11 @@ footer {
 }
 
 .footer-section {
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .footer-section h3 {
-    margin-bottom: .3125rem;
+    margin-bottom: 5px;
 }
 
 .footer-section ul {
@@ -880,19 +1732,19 @@ footer {
 }
 
 .footer-section ul li {
-    margin-bottom: 5px;
+    margin-bottom: .3125rem;
 }
 
 
 /*RESPONSIVE FOTTER*/
-@media(max-width: 991px){
+@media(max-width: 61.9375rem){
     .footer-row{
         text-align: center;
         
     }
     .footer-links{
         width: 100%;
-        margin-bottom: 1.875rem;
+        margin-bottom: 30px;
     }
 }
 
