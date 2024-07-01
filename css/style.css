@@ -1342,9 +1342,10 @@ border-radius: .6875rem;
     margin-left: 2.5rem;
     padding-bottom: 40px;
 }
- /*liners2*/
 
- .liners2-container{
+/*liners2*/
+
+.liners2-container{
     display: flex;
     background-color: #FC1912;
     width: 90%;
@@ -1399,7 +1400,7 @@ height: auto;
     padding-bottom: 40px;
 }
 
- /*BULK DRY LINERS PAGINA*/
+/*BULK DRY LINERS PAGINA*/
 
 
 .parrafo-bulk p{
@@ -1418,8 +1419,6 @@ height: auto;
     flex-wrap: wrap;
 
 }
-
-
 
 .ventajasbulk-container{
     display: flex;
@@ -1475,7 +1474,7 @@ height: auto;
 .containerlist-bulk {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 1.25rem;
+    gap: .625rem;
     background-color: white;
     width: 90%;
 }
@@ -1547,23 +1546,28 @@ height: auto;
     text-align: left;
     margin-top: 40px;}
 
+/*revestimientos lista*/
 
 .dry-container {
-    background-color: #FC1912;
-    max-width: 70%;
+    background-color: #0E0A5C;
+    max-width: 100%;
     margin-bottom: 10px;
     margin-top: 25px;
     padding-bottom: 30px;
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    
+
 }
 
 .dry-container h4 {
-    color: #0E0A5C;
+    color: #FC1912;
     font-size: 1.25rem;
     font-family:"Lato", sans-serif;
-    text-align: center;
-    font-weight: 800;
+    text-align: left;
+    font-weight: 700;
     margin-top: 20px;
     padding-top: 40px;
+    padding-left: 1.875rem;
 
 }
 
@@ -1575,49 +1579,57 @@ height: auto;
     margin-left: 1.875rem;
     margin-top: 1.25rem;}
 
+/*formas de carga*/
+
     .dry-container2 {
-        background-color: #FC1912;
-        max-width: 70%;
+        background-color: #EDEDED;
+        max-width: 100%;
         margin-bottom: 10px;
         margin-top: 25px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+        box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
     }
     
     .dry-container2 h4 {
-        color: #0E0A5C;
+        color: #FC1912;
         font-size: 1.25rem;
         font-family:"Lato", sans-serif;
-        text-align: center;
+        text-align: left;
         font-weight: 800;
         margin-top: 20px;
-        padding-top: 40px;
-    
+        padding-top: 40px; 
+        padding-left: 1.875rem;
     }
     
     .dry-container2 ul {
-        color: #EDEDED;
+        color: #111827;
         font-size: 1.125rem;
         font-family:"Lato", sans-serif;
         text-align: left;
         margin-left: 1.875rem;
-        margin-top: 1.25rem;}
+        margin-top: 1.25rem;
+        }
+
+/*accesorios*/
 
 .dry-container3 {
     background-color: #FC1912;
-    max-width: 70%;
+    max-width: 100%;
     margin-bottom: 10px;
     margin-top: 25px;
     padding-bottom: 30px;
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
 }
 
 .dry-container3 h4 {
     color: #0E0A5C;
     font-size: 1.25rem;
     font-family:"Lato", sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: 800;
     margin-top: 20px;
     padding-top: 40px;
+    padding-left: 1.875rem;
 
 }
 
@@ -1629,6 +1641,340 @@ height: auto;
     margin-left: 1.875rem;
     margin-top: 1.25rem;}
 
+
+/*Flexitanks pagina*/
+
+.flexi-ig{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flexi-container h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:"Lato", sans-serif;
+    font-size: 40px;
+    width: 50%;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #0E0A5C;
+    text-align: center;
+    transform: translate(-50%, -90%);
+    
+}
+
+.parrafo-flexi{
+    display: flex;
+    font-family:"Lato", sans-serif;
+    font-size: 20px;
+    max-width: 90%;
+    color: #111827;
+    text-align: left;
+    width: 80%;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 2.5rem auto;
+
+}
+
+.parrafo-flexi2{
+    display:flex;
+    font-family:"lato", sans-serif;
+    font-size:20px;
+    max-width:90%;
+    color: #EDEDED;
+    background-color: #FC1912;
+    text-align: left;
+    width:90%;
+    justify-content:center;
+    margin-left: 3.75rem;
+    padding: 1.875rem;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    margin-bottom: 1.875rem;
+}
+
+
+.benefits-container{
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    padding: 30px;
+
+}
+
+.benefits-container h2{
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.benefits-list p{
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    text-align:left;
+    font-size: 16px;
+}
+
+
+.benefits-list .img{
+    width: 400px;
+    height: auto;
+    border-radius: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    transform: translateX(50px);
+    }
+
+.list1b{
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    font-size: 1rem;
+}
+
+
+.container-flexitanks{
+    display: flex;
+    background-color: #1E0875;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left: 1.875rem;
+    padding: 30px;
+    display: flexbox;
+    flex-direction: column;
+
+}
+
+.container-flexitanks h3{
+    font-family:"Lato", sans-serif;
+    color: #FC1912;
+    font-weight: 900;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.subtitulo-flexi{
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    text-align:left;
+    font-size: 14px;
+    padding-left: 40px ;
+}
+
+.titulo-flexi p{
+    font-family:"Lato", sans-serif;
+    color: #EDEDED;
+    text-align:left;
+    font-size: 14px;
+}
+
+.flexi-card1 p{
+    font-family: "lato-", sans-serif;
+    color: #EDEDED;
+    text-align: left;
+    font-size: 14px;
+}
+
+.flexi-card1 .titulo-flexcard{
+    color:#FF0000;
+}
+
+.flexi-card2 p{
+    font-family: "lato", sans-serif;
+    color: #EDEDED;
+    text-align: left;
+    font-size: 14pxs;
+}
+
+.flexi-card2 .titulo-flexcard{
+    color: #FF0000;
+}
+
+.flexi-card3{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.benefits-list img{
+    width: 400px;
+    height: auto;
+    border-radius: 11px;
+    margin: 10px;
+    transform: translateX(20%);
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+
+.list1b{
+    font-family:"Lato", sans-serif;
+    color: #ABA2CB;
+    font-size: .875rem;
+
+}
+
+
+
+
+
+
+/*
+
+
+.containerclassi {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.25rem;
+    background-color: white;
+    width: 90%;
+}
+
+
+.clasificacion{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clasificacion h2 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.clasificacion ul {
+    color: #333;
+    font-size: 1rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    list-style-type: none;}
+
+
+.ventajas{
+    background-color: #E5E7EB; 
+    border-radius: 1.375rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.382); 
+    padding: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ventajas h2 {
+    color: white;
+    background-color: #FC1912;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    padding: 5px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+}
+
+.ventajas ul {
+    color: #333;
+    font-size: 1rem;
+    font-family:"Lato", sans-serif;
+    text-align: left;}
+
+
+
+.contruction-section {
+    background-color: #FC1912;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-bottom: 80px;
+}
+
+.contruction-section h2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family:"Lato", sans-serif;
+    text-align: left;
+    font-weight: 800;
+    margin-left: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    padding-top: 40px;
+
+}
+
+.tipos-container {
+display: grid;
+grid-template-columns: auto auto;
+max-width: 90%;
+gap: 20px;
+justify-content: center;
+} 
+
+.card12 {
+    background-color: #FFFFFF; 
+    border-radius: .6875rem; 
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.481); 
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.big-bag1 {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    height:auto;
+}
+
+.card12 h3{
+    color: #0E0A5C;
+    font-size: 25px;
+    font-family:"Lato", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 10px;
+    }
+
+.card12 ul {
+    font-family:"Lato", sans-serif;
+    color: #333;
+    font-size: 15px;
+    margin: .625rem 0;
+    width: 100%;
+    list-style: none;
+    text-align: left;
+}
 
 
 
