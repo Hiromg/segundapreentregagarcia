@@ -1,0 +1,100 @@
+/*PRODUCTOS PAGINA*/
+/*nuestros productos*/
+
+.productos-container {
+    background-color: #FC1912;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+    h1 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      color: #F9FAFB;
+      padding-left: 2.5rem;
+      padding-top: 1.25rem;
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+    }
+  
+    .logo-container {
+      display: flex;
+      width: 10%;
+      justify-content: flex-end;
+      padding-right: 2.5rem;
+      margin-right: 1.25rem;
+    }
+  }
+  
+  /*card nuestros productos PAGINA*/
+  
+  .product-container2 {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 1.5625rem;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+    padding-bottom: 3.125rem;
+    background-color: #F9FAFB;
+  }
+  
+  .card2 {
+    background-color: #FFFFFF;
+    border-radius: .6875rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.481);
+    padding: 1.25rem;
+    width: 23.6875rem;
+    height: 25rem;
+    text-align: center;
+    margin-bottom: .625rem;
+    margin-top: 1.5625rem;
+  }
+  
+  .product-image2 {
+    max-width: 100%;
+    height: auto;
+    width: 15.3125rem;
+    height: 12.8125rem;
+    border-radius: .625rem;
+  }
+  
+  .card2 p {
+    color: #333;
+    font-size: 1rem;
+    margin: .625rem 0;
+    width: 100%;
+  }
+  
+  .read-more2 {
+    background-color: #16A34A;
+    color: white;
+    border: none;
+    padding: .625rem 1.25rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
+    cursor: pointer;
+    text-decoration: none;
+  
+    &:hover {
+      background-color: #0E0A5C;
+    }
+  }
+  
+  .read-more22 {
+    background-color: #16A34A;
+    color: white;
+    border: none;
+    padding: .625rem 1.25rem;
+    margin-top: 1.25rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
+    cursor: pointer;
+    text-decoration: none;
+  
+    &:hover {
+      background-color: #0E0A5C;
+    }
+  }
+  

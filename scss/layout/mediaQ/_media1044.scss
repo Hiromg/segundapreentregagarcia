@@ -1,0 +1,665 @@
+/*RESPONSIVE*/
+/*VISTA TABLET 768PX HASTA 1023PX*/
+
+@media (max-width: 1044px) {
+    /*inicio*/
+  
+    .products-section {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .product-container {
+      flex-direction: column;
+      width: 100%;
+      gap: .625rem;
+    }
+  
+    .card-product {
+      display: block;
+      flex-wrap: wrap;
+      max-width: fit-content;
+      width: 320px;
+      height: auto;
+    }
+  
+    .read-more {
+      justify-content: center;
+    }
+  
+    .section-container {
+      padding-left: 25px;
+    }
+  
+    /*footer*/
+  
+    .footer-row {
+      text-align: center;
+      margin: 10px;
+      padding: auto;
+    }
+  
+    .footer-links {
+      width: 100%;
+      margin-bottom: 1.875rem;
+    }
+  
+    .footer-section {
+      margin-left: 5px;
+      margin-right: 5px;
+  
+      h3 {
+        text-align: center;
+        justify-content: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+      }
+    }
+  
+    .footer-links h3 {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  
+    .footer-section ul li a {
+      margin-left: auto;
+      padding-left: auto;
+    }
+  
+    /*NOSOTROS PAGINA*/
+    /*BANNER NOSOTROS*/
+  
+    .container-nosotros {
+      background-color: #1E0875;
+      max-width: 100%;
+  
+      img {
+        width: 700px;
+      }
+    }
+  
+    .wrap-texto {
+      transform: translateY(-110px);
+      flex-wrap: wrap;
+      font-size: .9375rem;
+    }
+  
+    /*seccion donde estamos NOSOTROS*/
+  
+    .nosotros-container {
+      background-color: #FC1912;
+    }
+  
+    .grid-container {
+      display: grid;
+      grid-template-columns: 50% 1fr 1fr;
+      grid-template-rows: 1/2fr auto auto;
+      grid-template-areas: "titulo titulo titulo" "parrafo chile argentina" "parrafo abajo";
+      background-color: #FC1912;
+      max-width: 90%;
+      width: 90%;
+      flex-wrap: wrap;
+    }
+  
+    .text-section {
+      h1 {
+        grid-area: "titulo";
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        color: #0E0A5C;
+        padding-top: 1.25rem;
+        padding-left: 1.25rem;
+        font-size: 24px;
+      }
+  
+      p {
+        grid-area: "parrafo";
+        font-family: "Lato", sans-serif;
+        color: black;
+        padding-left: 1.25rem;
+        padding-top: .625rem;
+        padding-right: .9375rem;
+        font-size: 15px;
+      }
+    }
+  
+    .chile img {
+      grid-area: chile;
+      width: 120px;
+      height: auto;
+      position: relative;
+      transform: translateY(65px) translateX(45px);
+    }
+  
+    .argentina img {
+      grid-area: argentina;
+      width: 120px;
+      height: auto;
+      position: relative;
+      transform: translateX(-10px);
+      transform: translateY(65px);
+    }
+  
+    .abajo img {
+      grid-area: abajo;
+      width: 350px;
+      height: auto;
+    }
+  
+    .grid-container {
+      margin-left: 1.875rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+    }
+  
+    /*MISION VISION NOSOTROS*/
+  
+    .containeraline {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 16px;
+      background-color: white;
+      width: 90%;
+      flex-wrap: wrap;
+    }
+  
+    /*valores NOSOTROS*/
+  
+    .section-valores {
+      background-color: #F3F4F6;
+  
+      h1 {
+        color: #1E0875;
+        font-size: 1.75rem;
+        font-weight: 900;
+        margin-bottom: 2.5rem;
+        margin-top: 2.5rem;
+        padding-top: 2.5rem;
+        display: flex;
+        justify-content: center;
+      }
+  
+      .valores-logo {
+        display: flex;
+        align-content: space-evenly;
+        justify-content: center;
+        gap: .625rem;
+        padding-bottom: 2.5rem;
+      }
+    }
+  
+    .logo-valores1, .logo-valores2, .logo-valores3 {
+      width: 200px;
+      height: auto;
+    }
+  
+    /*carrusel NOSOTROS*/
+  
+    .carousel-inner {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+  
+    .carousel {
+      background-color: #0E0A5C;
+      padding-bottom: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+  
+    .titulo-carrusel h1 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      font-size: 28px;
+    }
+  
+    .w-90 {
+      width: 400px;
+      height: auto;
+    }
+  
+    /*CERTIFICACIONES PAGINA*/
+    /*banner certificaciones*/
+  
+    .wrap-img2 {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 60px;
+      justify-content: center;
+      max-width: 100%;
+    }
+  
+    .wrap-texto2 {
+      font-family: "Lato", sans-serif;
+      font-size: .9375rem;
+      width: 70%;
+      color: #111827;
+      text-align: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      transform: translateY(-90px) translateX(-350px);
+    }
+  
+    /*certificaciones logos PAGINA*/
+  
+    .section-container2 {
+      display: flex;
+      justify-content: center;
+      align-content: space-between;
+      background-color: #FC1912;
+      flex-wrap: wrap;
+      max-width: fit-content;
+      margin: 0 auto;
+  
+      h1 {
+        color: white;
+        font-size: 28px;
+        font-weight: 900;
+        margin-bottom: 1.25rem;
+        margin-top: 1.5625rem;
+        display: flex;
+        justify-content: center;
+        max-width: fit-content;
+      }
+    }
+  
+    .logo-image2 {
+      max-width: 100%;
+      height: auto;
+      gap: 1.5625rem;
+      margin-bottom: 3.125rem;
+      align-content: space-around;
+      margin-left: 40px;
+    }
+  
+    /*noticias pagina*/
+  
+    .container-news {
+      display: grid;
+      grid-template-columns: 30% auto;
+      grid-template-rows: auto;
+      flex-wrap: wrap;
+      width: 95%;
+    }
+  
+    .img-nota img {
+      width: 250px;
+      height: auto;
+      margin-left: 10px;
+      align-content: center;
+      padding-left: 10px;
+      margin-top: 1.25rem;
+    }
+  
+    .img-nota1 .nota1 {
+      width: 250px;
+      height: 150px;
+      margin-left: 15px;
+      margin-top: 1.25rem;
+      align-content: center;
+      padding-left: 1.25rem;
+    }
+  
+    .interior-article {
+      h2 {
+        font-size: 20px;
+        display: flex;
+        margin-left: 70px;
+      }
+  
+      p {
+        font-size: 14px;
+        text-align: left;
+        padding-right: 10px;
+        margin-right: 10px;
+        padding-left: 40px;
+        margin-left: 30px;
+      }
+    }
+  
+    .more {
+      position: relative;
+      transform: translateX(85%);
+    }
+  
+    /*noticias cada noticia PAGINA*/
+  
+    .titulo-nota {
+      justify-content: center;
+      margin-right: 30px;
+    }
+  
+    .bajada-nota {
+      padding-right: 40px;
+      text-align: center;
+    }
+  
+    .imagen-nota {
+      display: flex;
+      justify-content: center;
+      width: auto;
+      height: auto;
+      margin: 1.875rem;
+    }
+  
+    .imagen-nota2 img {
+      display: flex;
+      justify-content: center;
+      margin-left: 80px;
+      width: 500px;
+      margin-bottom: 2.5rem;
+    }
+  
+    /*BIGBAGS PAGINA*/
+  
+    .bigbag-container h1 {
+      position: relative;
+      transform: translate(-52%, -350%);
+    }
+  
+    /*bigbag card*/
+  
+    .who-container h2 {
+      font-size: 26px;
+    }
+  
+    .grid-list {
+      p {
+        grid-area: parrafo;
+        padding-left: 1.875rem;
+        margin-left: .625rem;
+        text-align: left;
+        font-size: 15px;
+      }
+  
+      img {
+        grid-area: img;
+        width: 250px;
+        height: auto;
+        padding-bottom: 2.5rem;
+      }
+    }
+  
+    /*clasificacion y ventajas*/
+  
+    .containerclassi {
+      display: grid;
+      grid-template-columns: auto;
+      gap: 1.25rem;
+      width: 90%;
+    }
+  
+    .clasificacion, .ventajas {
+      padding: 1.5625rem;
+  
+      h2 {
+        font-size: 1.25rem;
+      }
+  
+      ul {
+        font-size: 1rem;
+        padding-top: 18px;
+      }
+    }
+  
+    /*ventajas*/
+  
+    /*tipos de contruccion*/
+  
+    .contruction-section {
+      background-color: #FC1912;
+      max-width: 100%;
+      margin-bottom: 1.25rem;
+      margin-top: 1.5625rem;
+      padding-bottom: 5rem;
+  
+      h2 {
+        text-align: left;
+        margin-left: 10px;
+        padding-left: 10px;
+        margin-top: 1.25rem;
+        padding-top: 2.5rem;
+      }
+    }
+  
+    .tipos-container {
+      display: grid;
+      grid-template-columns: auto;
+      max-width: 90%;
+      gap: 10px;
+      justify-content: center;
+    }
+  
+    /*SLING BAGS PAGINAS*/
+  
+    .slingbag-container h1 {
+      position: relative;
+      transform: translate(-50%, -350%);
+    }
+  
+    /*slingbag section*/
+  
+    .slingventajas-container h2 {
+      grid-area: ventajas;
+      font-size: 26px;
+    }
+  
+    .parrafo-slingbag {
+      font-size: 16px;
+      max-width: 90%;
+      text-align: left;
+      width: 90%;
+      margin: 15px auto;
+    }
+  
+    .gridv-list {
+      li {
+        padding-top: .625rem;
+        padding-left: 20px;
+      }
+  
+      display: grid;
+      max-width: 90%;
+      grid-template-areas: "ventajas ventajas ventajas" "list1 img2 img2" "list1 img3 img3";
+      grid-template-columns: auto auto auto;
+      grid-template-rows: 1/2fr 1fr 1fr;
+    }
+  
+    .list1v {
+      grid-area: list1;
+      margin-left: 10px;
+    }
+  
+    .imgv1 {
+      grid-area: img3;
+      width: 200px;
+      height: auto;
+      padding: .625rem;
+    }
+  
+    .imgv2 {
+      grid-area: img2;
+      width: 180px;
+      height: auto;
+      margin-left: 30px;
+      border-radius: .6875rem;
+    }
+  
+    /*BOLSAS DE POLIPROPILENO PAGINA*/
+  
+    .bigbag-container2 h1 {
+      position: relative;
+      text-align: center;
+      transform: translate(-50%, -200%);
+    }
+  
+    .bolsaspp-container {
+      display: flex;
+      background-color: #1E0875;
+      width: 90%;
+      flex-wrap: wrap;
+      max-width: fit-content;
+      margin: 0 auto;
+  
+      h2 {
+        font-size: 26px;
+      }
+    }
+  
+    .grid-listpp {
+      p {
+        padding-top: .625rem;
+        padding-left: 20px;
+        margin-left: .625rem;
+        text-align: left;
+      }
+  
+      img {
+        width: 180px;
+        height: auto;
+        padding-bottom: 20px;
+      }
+    }
+  
+    .list2 {
+      color: #EDEDED;
+      transform: translate(-5%, 0);
+      padding-bottom: 2.5rem;
+    }
+  
+    /*BOLSAS AD STAR*/
+  
+    .bolsaspp-containerad h2 {
+      font-size: 20px;
+      font-weight: 900;
+      padding-top: 20px;
+      padding-left: 20px;
+      text-align: left;
+    }
+  
+    /*LINERS DE PE PAGINA*/
+  
+    .liners-container h2 {
+      font-size: 24px;
+    }
+  
+    .grid-liner {
+      p {
+        padding-left: 20px;
+      }
+  
+      img {
+        width: 200px;
+        height: auto;
+        margin-left: 10px;
+      }
+    }
+  
+    .listliner {
+      margin-left: 30px;
+    }
+  
+    /*liners2*/
+  
+    .liners2-container h2 {
+      font-size: 24px;
+    }
+  
+    .grid-liners2 {
+      p {
+        padding-top: .625rem;
+        padding-left: 20px;
+        margin-left: .625rem;
+      }
+  
+      img {
+        grid-area: img;
+        width: 200px;
+        height: auto;
+        position: relative;
+        transform: translateX(10%);
+      }
+    }
+  
+    .listliner2 {
+      margin-left: 20px;
+      width: 95%;
+    }
+  
+    /*BULK DRY LINERS PAGINA*/
+  
+    .bigbag-ig {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .bigbag-containerdry h1 {
+      font-size: 30px;
+      transform: translate(-50%, -300%);
+    }
+  
+    .parrafo-bulk p {
+      font-size: 16px;
+    }
+  
+    .bigbag-containerad h1 {
+      transform: translate(-50%, -800%);
+    }
+  
+    .containerlist-bulk {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  
+    .dry-container3 ul {
+      margin-right: 1.25rem;
+    }
+  
+    /*FLEXITANKS PAGINA*/
+  
+    .flexi-container h1 {
+      position: relative;
+      transform: translate(-50%, -280%);
+    }
+  
+    .benefits-list img {
+      position: relative;
+      transform: translateX(10%);
+    }
+  
+    .flexi-card1, .flexi-card2 {
+      width: 70%;
+      max-width: 70%;
+    }
+  
+    .flexi-card3 {
+      width: 90%;
+      max-width: 90%;
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: auto auto;
+      transform: translateX(5%);
+      padding: 20px;
+  
+      img {
+        width: 150px;
+      }
+    }
+  
+    .card-especifi2 {
+      ul {
+        margin-left: 10px;
+      }
+  
+      img {
+        width: 200px;
+        height: auto;
+        transform: translateY(15%);
+        transform: translateX(10%);
+      }
+    }
+  }
+  

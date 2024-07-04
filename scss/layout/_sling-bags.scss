@@ -1,0 +1,101 @@
+/*SLING BAGS PAGINAS*/
+
+.sling-bag {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .slingbag-container h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Lato", sans-serif;
+    font-size: 3.125rem;
+    width: 50%;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #0E0A5C;
+    text-align: center;
+    transform: translate(-50%, -100%);
+  }
+  
+  .parrafo-slingbag {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 1.25rem;
+    max-width: 90%;
+    color: #111827;
+    text-align: justify;
+    width: 80%;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 2.5rem auto;
+  }
+  
+  /*slingbag section*/
+  
+  .slingventajas-container {
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+    padding-left: .625rem;
+    padding-right: 1.875rem;
+    margin-bottom: .625rem;
+  
+    h2 {
+      font-family: "Lato", sans-serif;
+      color: #FC1912;
+      font-weight: 900;
+      padding-top: 2.5rem;
+      padding-left: 2.5rem;
+      text-align: left;
+    }
+  }
+  
+  .gridv-list {
+    li {
+      font-family: "Lato", sans-serif;
+      color: #EDEDED;
+      padding-top: .625rem;
+      padding-left: 1.875rem;
+      margin-left: .625rem;
+      text-align: left;
+    }
+  
+    display: grid;
+    max-width: 100%;
+    grid-template-areas: "list1 img2 img3";
+    grid-template-columns: auto auto auto;
+  }
+  
+  .list1v {
+    grid-area: list1;
+    font-family: "Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 2.5rem;
+  }
+  
+  .imgv1 {
+    grid-area: img3;
+    width: 21.875rem;
+    height: auto;
+    padding: .625rem;
+  }
+  
+  .imgv2 {
+    grid-area: img2;
+    width: 12.5rem;
+    height: auto;
+    border-radius: .6875rem;
+  }
+  

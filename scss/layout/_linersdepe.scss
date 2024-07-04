@@ -1,0 +1,127 @@
+/*LINERS DE PE PAGINA*/
+
+.parrafo-liners {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 1.25rem;
+    max-width: 90%;
+    color: #111827;
+    text-align: justify;
+    width: 80%;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 2.5rem auto;
+  }
+  
+  .liners-container {
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: .6875rem;
+    margin-bottom: 3.125rem;
+  
+    h2 {
+      font-family: "Lato", sans-serif;
+      color: #FC1912;
+      font-weight: 900;
+      padding-top: 2.5rem;
+      padding-left: 2.5rem;
+      text-align: left;
+    }
+  }
+  
+  .grid-liner {
+    p {
+      grid-area: parrafo;
+      font-family: "Lato", sans-serif;
+      color: #EDEDED;
+      padding-top: 30px;
+      padding-left: 1.875rem;
+      margin-left: .625rem;
+      text-align: left;
+    }
+  
+    display: grid;
+    max-width: 80%;
+    grid-template-areas: "parrafo  img " "list1  img ";
+    grid-template-columns: 80% 40%;
+    grid-template-rows: auto auto;
+  
+    img {
+      grid-area: img;
+      width: 18.75rem;
+      height: auto;
+      border-radius: .6875rem;
+    }
+  }
+  
+  .listliner {
+    grid-area: list1;
+    font-family: "Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  /*liners2*/
+  
+  .liners2-container {
+    display: flex;
+    background-color: #FC1912;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: .6875rem;
+    margin-bottom: 3.125rem;
+  
+    h2 {
+      font-family: "Lato", sans-serif;
+      color: #EDEDED;
+      font-weight: 800;
+      padding-top: 2.5rem;
+      padding-left: 2.5rem;
+      text-align: left;
+    }
+  }
+  
+  .grid-liners2 {
+    p {
+      grid-area: parrafo;
+      font-family: "Lato", sans-serif;
+      color: #EDEDED;
+      padding-top: 20px;
+      padding-left: 20px;
+      margin-left: .625rem;
+      text-align: left;
+    }
+  
+    display: grid;
+    max-width: 80%;
+    grid-template-areas: "parrafo  img" "list1  img";
+    grid-template-columns: 80% 40%;
+    grid-template-rows: auto auto;
+  
+    img {
+      grid-area: img;
+      width: 300px;
+      height: auto;
+      position: relative;
+      transform: translateX(-40%) translateY(40%);
+    }
+  }
+  
+  .listliner2 {
+    grid-area: list1;
+    width: 70%;
+    font-family: "Lato", sans-serif;
+    color: #EDEDED;
+    margin-left: .625rem;
+    padding-bottom: 1.25rem;
+  }
+  

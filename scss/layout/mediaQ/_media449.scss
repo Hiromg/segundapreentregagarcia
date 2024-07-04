@@ -1,0 +1,1125 @@
+/*RESPONSIVE*/
+/*VISTA iphone 320px HASTA 425px*/
+
+@media (max-width: 449px) {
+    .product-container {
+      display: grid;
+      grid-template-columns: auto;
+      grid-area: auto;
+      flex-direction: column;
+      width: 80%;
+      gap: 5px;
+    }
+  
+    .card-product {
+      display: block;
+      flex-wrap: wrap;
+      max-width: 320px;
+      width: 300px;
+      height: auto;
+    }
+
+/*footer*/
+
+.footer-links {
+    width: 100%;
+    margin-bottom: 10px;
+  
+    h3 {
+      font-size: 15px;
+      margin-top: 15px;
+    }
+  }
+  
+  .footer-section ul li a {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+/*NOSOTROS PAGINA*/
+/*BANNER NOSOTROS*/
+
+.container-nosotros {
+    background-color: #1E0875;
+    max-width: 100%;
+  
+    img {
+      width: 300px;
+    }
+  }
+  
+  .wrap-texto {
+    transform: translateY(-60px);
+    flex-wrap: wrap;
+    font-size: 10px;
+    box-sizing: content-box;
+  }
+  
+  .list1 {
+    grid-area: list1;
+    font-family: "Lato", sans-serif;
+    color: #ABA2CB;
+    margin-left: 40px;
+  }
+  
+  .list2 {
+    grid-area: list2;
+    font-family: "Lato", sans-serif;
+    color: #ABA2CB;
+    transform: translate(-30%, 0);
+  }
+  
+  /*seccion donde estamos NOSOTROS*/
+  
+  .nosotros-container {
+    background-color: #FC1912;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-template-rows: 1/2fr auto auto;
+    grid-template-areas: "titulo titulo titulo" "parrafo chile argentina" "parrafo abajo";
+    background-color: #FC1912;
+    max-width: 90%;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  
+  .text-section {
+    h1 {
+      grid-area: "titulo";
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      color: #0E0A5C;
+      padding-top: 1.25rem;
+      padding-left: 1.25rem;
+      font-size: 24px;
+    }
+  
+    p {
+      grid-area: "parrafo";
+      font-family: "Lato", sans-serif;
+      color: black;
+      padding-left: 1.25rem;
+      padding-top: .625rem;
+      padding-right: .9375rem;
+      font-size: 15px;
+    }
+  }
+  
+  .chile img {
+    grid-area: chile;
+    width: 120px;
+    height: auto;
+    position: relative;
+    transform: translateY(75px) translateX(45px);
+  }
+  
+  .argentina img {
+    grid-area: argentina;
+    width: 120px;
+    height: auto;
+    position: relative;
+    transform: translateX(-10px);
+    transform: translateY(75px);
+  }
+  
+  .abajo img {
+    grid-area: abajo;
+    width: 350px;
+    height: auto;
+  }
+  
+  .grid-container {
+    margin-left: 1.875rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  
+  /*MISION VISION NOSOTROS*/
+  
+  .containeraline {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  /*valores NOSOTROS*/
+  
+  .section-valores {
+    h1 {
+      font-size: 1.4375rem;
+    }
+  
+    .valores-logo {
+      display: flex;
+      align-content: space-evenly;
+      justify-content: center;
+      gap: .625rem;
+      padding-bottom: 2.5rem;
+    }
+  }
+  
+  .logo-valores1, .logo-valores2, .logo-valores3 {
+    width: 75px;
+    height: auto;
+  }
+  
+  /*carrusel NOSOTROS*/
+  
+  .titulo-carrusel h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 30px;
+    margin-right: 20px;
+  }
+  
+  .w-90 {
+    width: 200px;
+    height: auto;
+    padding-right: 30px;
+  }
+
+/*PRODUCTOS PAGINA*/
+
+.productos-container h1 {
+    font-size: 18px;
+  }
+  
+  .card2 p {
+    color: black;
+    font-size: 13px;
+  }
+/*CERTIFICACIONES PAGINA*/
+/*banner certificaciones*/
+
+.wrap-img2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .wrap-texto2 {
+    font-size: 12px;
+    transform: translateY(-40px) translateX(-125px);
+  }
+  
+  /*noticias pagina*/
+  
+  .container-news {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+  
+  .img-nota img {
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+    align-content: center;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 1.25rem;
+  }
+  
+  .img-nota1 .nota1 {
+    width: 200px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 1.25rem;
+    align-content: center;
+    padding-left: 10px;
+  }
+  
+  .interior-article {
+    h2 {
+      font-size: 20px;
+      display: flex;
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+  
+    p {
+      font-size: 14px;
+      text-align: left;
+      padding-right: 10px;
+      margin-right: 10px;
+      padding-left: 10px;
+      margin-left: 10px;
+    }
+  }
+/*nota periodistica PAGINA*/
+
+.container-nota {
+    background-color: #EDEDED;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .volanta {
+    font-size: .625rem;
+    width: 80%;
+    margin-left: 10px;
+  }
+  
+  .titulo-nota h2 {
+    font-size: 26px;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  
+  .bajada-nota p {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: .6875rem;
+    width: 90%;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  
+  .imagen-nota img {
+    justify-content: center;
+    width: 200px;
+    height: auto;
+  }
+  
+  .cuerpo-nota p {
+    font-size: .875rem;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  
+  .imagen-nota2 img {
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    margin-right: 60px;
+    margin-left: 40px;
+    margin-bottom: 2.5rem;
+  }
+/*BIGBAGS PAGINA*/
+
+.bigbag-container h1 {
+    position: relative;
+    transform: translate(-54%, -250%);
+    font-size: 1.5625rem;
+  }
+  
+  /*bigbag card*/
+  
+  .who-container h2 {
+    font-size: 20px;
+  }
+  
+  .grid-list {
+    p {
+      grid-area: parrafo;
+      padding-left: 10px;
+      text-align: left;
+      font-size: 12px;
+      color: #EDEDED;
+    }
+  
+    img {
+      grid-area: img;
+      width: 100px;
+      height: auto;
+      padding-top: 10px;
+      padding-left: 20px;
+    }
+  }
+  
+  .list1 {
+    grid-area: list1;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    color: #EDEDED;
+  }
+  
+  .list2 {
+    grid-area: list2;
+    font-size: 12px;
+    transform: translate(30%, 0);
+    color: #EDEDED;
+  }
+  
+  /*clasificacion y ventajas*/
+  
+  .containerclassi {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1.25rem;
+    width: 90%;
+  }
+  
+  .clasificacion {
+    padding: 10px;
+  
+    h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    ul {
+      font-size: 12px;
+      padding-top: 10px;
+      padding-left: 5px;
+      margin-left: 0;
+      color: black;
+    }
+  }
+  
+  /*ventajas*/
+  
+  .ventajas {
+    padding: 10px;
+  
+    h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    ul {
+      font-size: 12px;
+      padding-top: 10px;
+      padding-left: 10px;
+      margin-left: 10px;
+      color: black;
+    }
+  }
+  
+  /*tipos de contruccion*/
+  
+  .card12 {
+    width: 300px;
+    height: auto;
+  }
+  
+  .tipos-container {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 60%;
+    gap: 5px;
+    justify-content: center;
+  }
+  
+  .contruction-section h2 {
+    font-size: 20px;
+    text-align: start;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .card12 {
+    ul {
+      color: black;
+      font-size: 12px;
+      margin: 0;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  }
+/*SLING BAGS PAGINAS*/
+
+.slingbag-container h1 {
+    font-size: 26px;
+    position: relative;
+    transform: translate(-50%, -250%);
+  }
+  
+  /*slingbag section*/
+  
+  .slingventajas-container h2 {
+    grid-area: ventajas;
+    font-size: 20px;
+  }
+  
+  .parrafo-slingbag {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .gridv-list {
+    li {
+      padding-top: .625rem;
+      padding-left: 20px;
+      font-size: 12px;
+    }
+  
+    display: grid;
+    max-width: 90%;
+    grid-template-areas: "ventajas" "list1" "img2" "img3";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  
+  .list1v {
+    grid-area: list1;
+    margin-left: 10px;
+  }
+  
+  .imgv1 {
+    grid-area: img3;
+    width: 250px;
+    height: auto;
+    padding: .625rem;
+  }
+  
+  .imgv2 {
+    grid-area: img2;
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: .6875rem;
+  }
+/*BOLSAS DE POLIPROPILENO PAGINA*/
+
+.bigbag-container2 h1 {
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    transform: translate(-50%, -180%);
+  }
+  
+  .parrafo-bigbag p {
+    font-size: 14px;
+    text-align: left;
+    color: black;
+  }
+  
+  .bolsaspp-container {
+    display: flex;
+    background-color: #1E0875;
+    width: 90%;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 0 auto;
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  
+  .grid-listpp {
+    p {
+      font-size: 11px;
+      padding-top: .625rem;
+      margin-left: .625rem;
+      margin-right: 20px;
+      text-align: left;
+    }
+  
+    img {
+      width: 75px;
+      height: auto;
+      padding-right: 10px;
+    }
+  }
+  
+  .list2 {
+    color: #EDEDED;
+    transform: translate(20%, 0);
+    padding-bottom: 2.5rem;
+  }
+  
+  .clasificacion-pp {
+    background-color: #E5E7EB;
+    border-radius: 1.375rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.382);
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    ul {
+      color: black;
+      font-size: 12px;
+    }
+  }
+/*BOLSAS ALLSTAR PAGINA*/
+
+.bigbag-containerad h1 {
+    font-size: 26px;
+    position: relative;
+    transform: translateX(-80px) translateY(-100px);
+  }
+  
+  .bolsaspp-containerad h2 {
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .grid-listpp {
+    p {
+      padding-top: .625rem;
+      margin-left: .625rem;
+      text-align: left;
+    }
+  
+    display: grid;
+    max-width: 80%;
+    grid-template-areas: "parrafo  parrafo img" "list1 list2 img";
+    grid-template-columns: 50% 40%;
+    grid-template-rows: auto auto;
+  
+    img {
+      grid-area: img;
+      width: 100px;
+      height: auto;
+      padding-bottom: 2.5rem;
+      transform: translateX(-20%);
+    }
+  }
+  
+  .list1 {
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 2.5rem;
+  }
+  
+  .list2 {
+    font-size: 12px;
+    transform: translate(10%, 0);
+    padding-bottom: 2.5rem;
+  }
+  
+  /*tipos de bolsas star*/
+  
+  .star-container {
+    max-width: 90%;
+  }
+  
+  .clasificacion-star {
+    background-color: #E5E7EB;
+    border-radius: 1.375rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.382);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      padding: .3125rem;
+    }
+  
+    ul {
+      color: #333;
+      font-size: 12px;
+      text-align: left;
+      padding-top: 5px;
+      list-style-type: circle;
+    }
+  }
+/*LINERS DE PE PAGINA*/
+
+.liners-container h2 {
+    font-size: 22px;
+  }
+  
+  .parrafo-liners {
+    font-size: 14px;
+    margin: 20px auto;
+  }
+  
+  .liners-container {
+    font-size: 12px;
+  }
+  
+  .grid-liner {
+    p {
+      padding-left: 11px;
+    }
+  
+    img {
+      width: 80px;
+      height: auto;
+    }
+  }
+  
+  .listliner {
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  
+  /*liners2*/
+  
+  .liners2-container h2 {
+    font-size: 22px;
+  }
+  
+  .grid-liners2 {
+    p {
+      padding-top: .625rem;
+      padding-left: 20px;
+      margin-left: .625rem;
+      font-size: 12px;
+    }
+  
+    img {
+      grid-area: img;
+      width: 80px;
+      height: auto;
+      position: relative;
+      transform: translateX(10%);
+    }
+  }
+  
+  .listliner2 {
+    margin-left: 20px;
+    width: 95%;
+    font-size: 12px;
+  }
+/*BULK DRY LINERS PAGINA*/
+
+.bigbag-containerdry h1 {
+    color: #0E0A5C;
+    font-size: 30px;
+    position: relative;
+    transform: translateX(-80px) translateY(-90px);
+  }
+  
+  .parrafo-bulk p {
+    font-size: 12px;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .ventajasbulk-container h4 {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  
+  .grid-listbulk {
+    display: grid;
+    max-width: 90%;
+    grid-template-areas: "list1" "list2";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-bottom: 1.875rem;
+  }
+  
+  .list-bulk {
+    grid-area: list1;
+    font-size: 12px;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  
+  .list2-bulk {
+    grid-area: list2;
+    margin-left: 20px;
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  
+  .containerlist-bulk {
+    grid-template-columns: auto;
+    background-color: white;
+    display: grid;
+    height: auto;
+    width: 300px;
+    justify-content: center;
+  }
+  
+  .list-transporte {
+    border-radius: 22px;
+    background-color: #E5E7EB;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.382);
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    margin-left: 5px;
+    margin-bottom: 1.25rem;
+    justify-content: center;
+    width: 300px;
+  
+    ul {
+      color: black;
+      font-size: 12px;
+      text-align: left;
+      font-family: "Lato", sans-serif;
+      font-size: 12px;
+      padding-top: 1.25rem;
+    }
+  
+    img {
+      display: flex;
+      justify-content: center;
+      width: 200px;
+      margin-left: 1.875rem;
+    }
+  }
+  
+  .ventajas-bulk {
+    background-color: #E5E7EB;
+    border-radius: 1.375rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.382);
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 5px;
+    width: 300px;
+  
+    h4 {
+      color: white;
+      background-color: #FC1912;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: .625rem;
+      padding: .3125rem;
+      font-family: "Lato", sans-serif;
+      text-align: center;
+    }
+  
+    ul {
+      color: black;
+      font-size: 12px;
+      font-family: "Lato", sans-serif;
+      text-align: left;
+      margin-top: 2.5rem;
+    }
+  }
+  
+  .dry-container {
+    h4 {
+      font-size: 18px;
+    }
+  
+    ul {
+      color: #EDEDED;
+      font-size: 12px;
+      font-family: "Lato", sans-serif;
+      text-align: left;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  .dry-container2 {
+    h4 {
+      font-size: 18px;
+    }
+  
+    ul {
+      color: #111827;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  .dry-container3 {
+    h4 {
+      color: #0E0A5C;
+    }
+  
+    ul {
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+/*FLEXITANKS PAGINA*/
+
+.flexi-container h1 {
+    font-size: 28px;
+  }
+  
+  .parrafo-flexi {
+    font-size: .75rem;
+    max-width: 90%;
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 40px auto;
+  }
+  
+  .parrafo-flexi2 p {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 1opx;
+  }
+  
+  /*beneficios flexitankes*/
+  
+  .benefits-container {
+    max-width: 90%;
+    width: 90%;
+    height: auto;
+    background-color: #1E0875;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 1.875rem;
+  
+    h2 {
+      font-size: 20px;
+      font-family: "Lato", sans-serif;
+      color: #FC1912;
+      font-weight: 900;
+      padding-left: 10px;
+      text-align: left;
+      grid-area: titulo1;
+    }
+  }
+  
+  .benefits-list {
+    p {
+      font-family: "Lato", sans-serif;
+      color: #EDEDED;
+      text-align: left;
+      font-size: 12px;
+      padding-left: 10px;
+    }
+  
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: .6875rem;
+      margin: 10px;
+      transform: translateX(10%);
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .list1b {
+    font-family: "Lato", sans-serif;
+    color: #EDEDED;
+    font-size: 12px;
+  }
+  
+  /*flexitankes*/
+  
+  .container-flexitanks {
+    background-color: #FC1912;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.875rem;
+    position: relative;
+    transform: translateX(-30px);
+  }
+  
+  .titulo-flexi {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 1.25rem;
+  
+    p {
+      font-family: "Lato", sans-serif;
+      color: #EDEDED;
+      text-align: left;
+      font-size: 12px;
+    }
+  
+    h3 {
+      grid-area: titulo1;
+      font-size: 20px;
+    }
+  }
+  
+  .container-cards {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  /*card1*/
+  
+  .flexi-card1 {
+    width: 90%;
+    max-width: 90%;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .titulo-flexcard {
+    font-size: 16px;
+  }
+  
+  .flexi-card1 p {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  /*card2*/
+  
+  .flexi-card2 {
+    background-color: white;
+    width: 90%;
+    max-width: 90%;
+    flex-wrap: wrap;
+    border-radius: .6875rem;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-size: 12px;
+  }
+  
+  /*card3*/
+  
+  .flexi-card3 {
+    background-color: white;
+    width: 90%;
+    max-width: 90%;
+    flex-wrap: wrap;
+    border-radius: .6875rem;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    transform: translateX(5%);
+    font-size: 12px;
+  }
+  
+  .titulo-flexcard2 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    color: #0E0A5C;
+    text-align: left;
+  }
+  
+  .flexi-card3 img {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    height: auto;
+    width: 150px;
+    margin-left: 50px;
+    border-radius: .6875rem;
+  }
+  
+  .titulo-flexcard2 p {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  /*especificaciones card*/
+  
+  .especifi-container {
+    max-width: 80%;
+    width: 80%;
+    position: relative;
+    right: -10%;
+  }
+  
+  .especi-titulo {
+    h3 {
+      text-align: center;
+      font-size: 16px;
+    }
+  
+    p {
+      font-size: 11px;
+      text-align: left;
+    }
+  }
+  
+  .card-especifi1 {
+    p {
+      font-size: 14px;
+    }
+  
+    ul {
+      font-size: 11px;
+      color: black;
+      margin-left: 5px;
+    }
+  }
+  
+  /*card especificaciones 2*/
+  
+  .card-especifi2 {
+    height: auto;
+    width: 80%;
+    margin-top: 1.25rem;
+    max-width: 80%;
+    margin-bottom: 1.875rem;
+    padding-top: 1.25rem;
+    right: -10%;
+    position: relative;
+    grid-template-columns: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  
+  .titulo-card3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .parrafo-especifi {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 11px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .card-especifi2 {
+    ul {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      font-size: 11px;
+      margin-left: 5px;
+      padding-top: 10px;
+    }
+  
+    img {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      width: 200px;
+      height: auto;
+      transform: translateY(-10px);
+      transform: translatex(10px);
+    }
+  }   
+}               
